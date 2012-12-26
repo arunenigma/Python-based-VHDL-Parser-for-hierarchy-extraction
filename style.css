@@ -1,0 +1,47 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+body
+{
+	line-height: 1.0 em;
+}
+
+a:link { color: #a00; }
+a:hover { color: #a90; }
+a:active { color: #590; }
+a:visited { color: #a00; } 
+
+#box-table-a
+{
+	font-family: "Calibri", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#box-table-a th
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px;
+	background: #ada;
+	border-bottom: 1px solid #010;
+	color: #350;
+}
+
+#box-table-a td
+{
+	padding: 8px;
+	background: #efa; 
+	border-bottom: 1px solid #fff;
+	color: #350;
+}
+
+#box-table-a tr:hover td
+{
+	background: #ffe;
+	color: #130;
+}
